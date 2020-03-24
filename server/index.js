@@ -16,7 +16,7 @@ app.use("/customers", customer);
  */
 app.use("/user", user);
 
-const port = process.env.port || 3000;
+const port = process.env.port || 3001;
 app.listen(port, () => {
   console.log(`server listening at port :${port}`);
   console.log(`http://localhost:${port}/customers`);
